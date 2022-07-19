@@ -1,0 +1,1019 @@
+/*
+Theme Name: Tahiti
+*/
+
+
+@font-face{
+  font-family: Gotham Bold;
+  src: url('assets/fonts/GothamBold.ttf');
+}
+
+@font-face{
+  font-family: Gotham Book;
+  src: url('assets/fonts/GothamBook.ttf');
+}
+
+@font-face{
+  font-family: Gotham Book italic;
+  src: url('assets/fonts/GothamBookItalic.ttf');
+}
+
+@font-face{
+  font-family: Gotham light;
+  src: url('assets/fonts/Gothamlight.ttf');
+}
+
+@font-face{
+  font-family: Gotham Medium;
+  src: url('assets/fonts/GothamMedium.ttf');
+}
+
+html {
+  -webkit-text-size-adjust: none;
+  /* Prevent font scaling in landscape */ }
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+img {
+  border-style: none;
+  max-width: 100%; }
+
+a {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+input, textarea, select {
+  vertical-align: middle;
+  color: #000;
+  padding: 0; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+form fieldset {
+  margin: 0;
+  padding: 0;
+  border: none; }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+*:focus {
+  outline: none; }
+
+input::-webkit-input-placeholder {
+  color: #bebebe; }
+
+input:focus::-webkit-input-placeholder {
+  color: #bebebe; }
+
+body{
+   font-family: Gotham Book;
+}
+/*............header section...........*/
+
+
+header{
+  height:100vh;
+  overflow: hidden;
+}
+
+.header__menu{
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.links{
+	display: flex;
+  align-items: center;
+  justify-content: space-between;
+ }
+
+.container{
+ max-width:1200px !important;
+  margin: auto;
+}
+
+
+#menu{
+  display: flex;
+  height: 100px;
+  margin-right: 45px;
+}
+
+.links{
+  margin-top:11px; 
+}
+
+#menu li{
+  margin-left: 40px;
+}
+
+
+#menu a{
+   font-family: Gotham Book;
+  margin-top: 5px; 
+  color:#F14C75;
+  text-decoration:none;
+  font-size: 18px;
+}
+
+.separator{
+ height: 35px;
+ margin: 0px 30px;
+ width: 1px;
+ background: #EBEDA4;
+}
+
+
+
+
+/*............END header section...........*/
+
+
+
+
+/*............baner section...........*/
+
+
+
+.background__img img {
+  height: 100%;
+  width: 100%;
+
+}
+
+.baner__text{
+  top: 310px;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.baner__text-item{
+  display: flex;
+  justify-content: center;
+  font-size: 64px;
+  color: #fff;
+}
+
+.baner__text-item .bold{
+  font-family: Gotham Bold;
+}
+.baner__text-item .light{
+ font-family: Gotham light;
+  margin-left: 32px;
+}
+
+
+.banet__text-light{
+   font-family: Gotham light;
+  font-size: 32px;
+  color: #fff;
+  font-weight: 300;
+  margin-top: 30px;
+}
+
+.block__title{
+  font-family: Gotham Bold;
+  font-size: 18px;
+  color: #ee2255;
+  font-weight: bold;
+}
+
+@media (max-width: 455px){  
+ 
+  .baner__text-item .light{
+    margin-left: 0px !important;
+  }
+  .banet__text-light{
+    margin-top: 20px;
+    font-size: 23px !important;
+  }
+
+}
+
+@media (max-width: 470px){  
+  .baner__text-item .bold{
+    font-size: 40px;
+  }
+  .baner__text-item .light{
+    font-size: 40px;
+    margin-left: 15px;
+  }
+  .banet__text-light{
+    font-size: 21px;
+  }
+}
+
+@media (max-width: 520px){  
+  .baner__text-item{
+    display: block !important;
+  }
+}
+
+@media (max-width: 793px){  
+  #menu{
+    display: none;
+  }
+  .baner__text-item .bold{
+    font-size: 45px;
+  }
+  .baner__text-item .light{
+    font-size: 45px;
+  }
+  .banet__text-light{
+    font-size: 26px;
+  }
+}
+
+
+
+
+/*............END discover section...........*/
+
+
+
+
+/*............ discover section...........*/
+.discover{
+
+  height: 100%;
+}
+
+.img img{
+  width: 100%;
+}
+.tickets{
+  width: 285px ;
+  margin: 0px 10px;
+  height: 356px;
+  margin-top: 52px;
+  box-shadow: 0px 4px 14px -3px #c4c4c4;
+}
+
+.tickets_btn{
+  text-decoration: none;
+  width: 285px !important ;
+}
+
+.discover__title{
+	margin-left: 0px;
+  display: flex;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.discover__title-bold{	
+	 font-family: Gotham Bold;
+   color: #3dbe98;
+   font-size: 40px;
+   padding-right: 15px;
+}
+
+.discover__title-light{
+  font-family: Gotham light;
+     color: #3dbe98;
+   font-size: 40px;
+}
+
+.discover__text-light{
+  margin-top: 10px;
+   font-family: Gotham light;
+	margin-left: 5px;
+  color: #333333;
+  font-size: 14px;
+}
+
+.discover__items{
+  height: 531px;
+}
+
+
+.title{
+   font-family: Gotham Book;
+  margin-top: 8px;
+  font-size: 24px;
+  color: #3dbe98;
+  margin-left: 20px;
+}
+
+.description{
+  font-family: Gotham light;
+	font-weight: lighter;
+  color: #333333;
+  font-size: 14px;
+  margin-left: 20px;
+  margin-top: 10px;
+  line-height: 17px;
+  margin-bottom: 19px;
+  width: 230px;
+}
+
+.prise{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color:#3dbe98;
+  height: 60px;
+}
+
+.from{
+  font-family: Gotham light;
+  margin-left: 20px;
+  color: #fff;
+  font-size: 14px;
+}
+.cost{
+  font-family: Gotham Book;
+  font-size: 20px;
+  color: #fff;
+  margin-left: 6px;
+  margin-top: -1px;
+
+}
+.arrow .material-symbols-outlined{
+  margin-left: 110px;
+  color: #fff;
+}
+
+.discover__title-second{
+  z-index: 100;
+  font-family: Gotham light;
+  font-size: 20px;
+  color: #333333;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.discover__select-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+.select__from select{
+   font-family: Gotham Book;
+    background: no-repeat;
+    padding: 0px 0px 0px 22px;
+    font-size: 20px;
+    width: 672px;
+    height: 60px;
+    font-size: 20px;
+    border: none;
+    box-shadow: 0px 2px 14px -2px #e7e7da;
+    color: #333333;
+}
+
+.discover__select-form button{
+   font-family: Gotham Book;
+  width: 225px;
+  height: 60px;
+  border: navajowhite;
+  background-color: #3dbe98;
+  font-size: 20px;
+  color: #fff;
+}
+
+@media (max-width: 385px){  
+  .experience__title{
+    margin-bottom: 15px;
+    display: block !important;
+  }
+  .discover__title-bold{
+    font-size: 32px;
+  }
+  .discover__title-light{
+    font-size: 32px;
+  }
+  .discover__select-form button{
+    width: 185px;
+    height: 50px;
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 985px){  
+  .select__from select{
+    width: 200px;
+  }
+
+
+}
+
+@media (max-width: 430px){  
+  .experience__title{
+    margin-bottom: 15px;
+    display: block !important;
+  }
+}
+
+
+
+/*............END discover section...........*/
+
+
+
+/*............slider.........................*/
+
+
+.slider img{
+  z-index: 9 !important;
+  position: absolute;
+  height: 100vh; 
+  object-fit: cover;
+}
+
+.slick-prev .slick-arrow{
+  display: none !important;
+}
+
+
+/*............END slider.........................*
+
+
+
+
+
+/*............ experience section...........*/
+
+
+.experience__baner{
+  height: 100%;
+  margin-top: 80px;
+  margin-bottom: 75px;
+}
+
+.experience__shadow{
+  box-shadow: 0px 81px 122px 59px #000;
+  position: absolute;
+  width: 100%;
+  height: 0px;
+}
+
+.experience__text{
+  position: absolute;
+  margin-top: 80px;
+}
+
+.experience__title{
+  display: flex;
+  align-items: center;
+}
+
+.experience__title-bold{
+  font-family: Gotham Bold;
+  font-weight: bold;
+  color: #ee2255;
+  font-size: 40px;
+  padding-right: 15px;
+}
+
+.experience__title-light{
+  font-family: Gotham light;
+  color: #ee2255;
+  font-size: 40px;
+}
+
+.experience__text-light{
+  font-family: Gotham light;
+  color: #fff;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 252px;
+}
+
+.experience__baner-text{
+  font-family: Gotham Book italic;
+  width: 69%;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top: 26%;
+  z-index: 4;
+}
+
+.experience__baner-description{
+  margin-top: 20px;
+  width: 100%;
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.experience__baner-btn button{
+  font-family: Gotham Book;
+  width: 285px;
+  height: 60px;
+  color: #fff;
+  border: none;
+  background-color:#ee2255;
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.experience__baner-btn button:hover{
+  background-color: #136a74;
+  transition: 0.3s;
+}
+
+.experience__img img{
+  min-height: 100vh;
+  object-fit: cover;
+}
+
+@media (max-width: 793px){  
+  .experience__baner-text{
+    margin-top: 37%;
+    font-size: 10px;
+  }
+  .experience__baner-description{
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 520px){  
+  .experience__baner-text{
+    margin-top: 55%;
+   }
+}
+
+@media (max-width: 385px){  
+  .experience__baner-description{
+    font-size: 14px;
+  }
+  .experience__title-bold{
+    font-size: 32px;
+   }
+
+ .experience__title-light{
+   font-size: 32px;
+ }
+
+  .experience__text-light{
+      font-size: 12px;
+  }
+  .experience__baner-btn button{
+     width: 185px;
+    height: 50px;
+    font-size: 13px
+  }
+  .experience__baner-text{
+    margin-top: 75%;
+  }
+
+}
+
+
+
+/*............END experience section...........*/
+
+
+
+/*............ advantage section...........*/
+
+
+
+.advantage{
+  padding: 0px 45px;
+}
+
+.advantage__title{
+  display: flex;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  width: 242px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.advantage__title-bold{
+   font-family: Gotham Bold;
+   color: #ff5d35;
+   font-size: 40px;
+   padding-right: 15px;
+}
+
+.advantage__title-light{
+  font-family: Gotham Light;
+   color: #ff5d35;
+   font-size: 40px;
+}
+
+.advantage__text{
+  font-family: Gotham Book;
+  margin-bottom: 78px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.advantage__text-item{
+  opacity: 1;
+  text-align: center;
+  font-size: 18px;
+  color: #333333;
+  width: 350px;
+  margin-top: 30px;
+  line-height: 30px;
+}
+
+
+@media (max-width: 385px){  
+  .advantage__title-bold{
+    font-size: 32px;
+  }
+  .advantage__title-light{
+    font-size: 32px;
+  }
+  .advantage__text-item{
+    font-size: 13px;
+  }
+}
+
+/*............END advantage section...........*/
+
+
+
+/*.............help section..............*/
+
+
+.help__baner-text{
+  width: 69%;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top: 205px;
+  z-index: 4;
+}
+
+.help__baner-title{
+  font-family: Gotham Bold;
+  font-size: 40px;
+  color:#fff;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.help__baner-description{
+  font-family: Gotham Book;
+  margin-top: 20px;
+  width: 100%;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 300;
+  margin-bottom: 20px;
+  line-height: 30px;
+}
+
+.help__baner-btn button{
+  font-family: Gotham Book;
+  width: 285px;
+  height: 60px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 25px;
+  border: none;
+  background-color: #21b6c7;
+  transition: 0.3s;
+}
+
+.help__baner_btn button:hover{
+  background-color: #136a74;
+  transition: 0.3s;
+}
+
+.opacity__background{
+  width: 90%;
+  height: 361px;
+  background-color: #000;
+  opacity: 0.6;
+  position: absolute;
+  z-index: 3;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top: 10%;
+}
+
+.help__baner-img{
+  position: relative;
+}
+
+.help__baner-img img{
+  min-height: 100vh;
+  object-fit: cover;
+}
+
+
+
+@media(max-width: 385px){
+  .help__baner-btn button{
+    width: 185px;
+    height: 50px;
+    font-size: 13px;
+  } 
+  .help__baner-title {
+    font-size: 25px !important;
+  }
+  .help__baner-description{
+    font-size: 13px !important;
+  }
+  .help__baner-text{
+    margin-top: 48% !important;
+  }
+  .opacity__background{
+    margin-top: 19% !important;
+  }
+}
+
+
+@media(max-width: 1050px){
+ .help__baner-text{
+    margin-top:20%;
+ }
+ .help__baner-title {
+   font-size: 27px;  
+  }
+  .opacity__background{
+    margin-top: 9%;
+    min-height: 75vh;
+  }
+}
+
+@media(max-width: 1050px){
+  .opacity__background{
+    width: 81%;
+    height: 336px;
+    margin-top: 7%;
+  }
+  .help__baner-title {
+    font-size: 35px ;
+    margin-top: -115px;
+  }
+}
+
+
+@media (max-width: 1150px) {
+  .opacity__background{
+    margin-top: 4%;
+  }
+  .help__baner-title {
+    font-size: 35px;
+    margin-top: -68px;
+  }
+  .help__baner-description{
+    font-size: 18px;
+  }
+}
+
+@media(max-width: 1350px){
+  .opacity__background{
+    margin-top: 8%;
+  }
+  
+  .help__baner-title{
+    margin-top: -41px; 
+  }
+}
+/*.............END help section..............*/
+
+
+
+
+
+
+/*................footer....................*/
+
+
+footer{
+  height: 513px;
+}
+
+.footer__block{
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.block__title{
+  margin-left: 45px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  color: #ee2255;
+  font-weight: bold;
+}
+
+
+
+#islands__block{
+  margin-left: 15px;
+}
+
+#packages__block{
+  margin-left: 17px;
+
+}
+
+#tahati__block{
+ margin-left: 5px; 
+}
+
+.list li a {
+  font-family: Gotham light;
+  color:#ee2255;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+.list li{
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.social_list{
+  display: flex;
+}
+
+.social__list li{
+  margin-left: 10px; 
+  margin-top: 10px;
+
+}
+
+.sidebar{
+  margin-left: 40px;
+  margin-top: -15px;
+}
+
+@media (max-width: 1085px){  
+  .sidebar{
+    margin: auto;
+    margin-top: 40px;
+  }
+}
+
+
+.sidebar .a2a_svg {
+  border-radius: 30px !important;
+}
+
+.a2a_count{
+  display: block !important;
+  width: 4% !important;
+  position: absolute !important;
+}
+
+
+@media (max-width: 571px){  
+  .footer__block{
+    display: block;
+    text-align: center;
+  }
+  .logo img{
+    margin-bottom: 20px;
+  }
+  .list{
+    margin-top: 30px;
+  }
+  .sidebar{
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 385px){
+  ul .list{
+    margin-right: 64px;
+  }  
+  .block__title{
+    margin-left: -20px !important;
+  }
+  .sidebar{
+    margin-left: 0px ;
+  }
+}
+
+/*................END footer....................*/
+
+#menu_ico{
+  display: none;
+}
+
+@media (max-width: 792px){  
+  .container{
+    max-width: 620px;  
+    margin: 0 auto; 
+    padding: 0px 15px;
+}
+  #menu_ico{
+    display: block;
+    position: absolute;
+    font-size:28px;
+    color: #000;
+    margin-left:80%;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 500,
+    'GRAD' 0,
+    'opsz' 68
+
+  }
+  #responsive__menu{
+    display: block;
+    z-index: 9;
+    width: 100%;
+    position: absolute;
+    background: #000;
+    height: 100vh
+  }
+  .responsive__menu-list{
+    text-align: center !important;
+    margin-top: 100px !important;
+    margin-right: 30px !important;
+    
+  }
+
+  .responsive__menu-list{
+    margin-top: 7px
+  }
+
+  .responsive__menu-list li {
+    text-decoration: none;
+    margin-top: 20px
+  }
+
+  .responsive__menu-list li  a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 20px
+  }
+} 
+@media (min-width: 792px) and (max-width: 3000px){ 
+  #responsive__menu{
+    display: none;
+  }
+}
+/*................КОНЕЦ АДАПТИВ...............*/
+
+
+
+
+#responsive__menu {
+  z-index: 998;
+  position: absolute;
+  width: 0%;
+  right: 0px;
+  float:right;
+  background: #000;
+  overflow: hidden;
+  transition: 0.2s;
+  height:535px; 
+  opacity: 0.8;
+}
+
+#responsive__menu:after {
+  display: none;
+}
